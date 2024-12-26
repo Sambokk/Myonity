@@ -1,0 +1,53 @@
+# Visual Studio specific
+.vs/
+*.suo
+*.user
+*.vcxproj.user
+*.vcxproj.filters
+*.pidb
+*.unityproj
+*.userprefs
+*.DotSettings
+*.csproj.pidb
+
+# Build directories
+Debug/
+Release/
+x64/
+Library/
+Temp/
+obj/
+*.obj
+
+# Compiled binary files
+*.pdb
+*.idb
+*.ilk
+*.o
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.[0-9]
+*.a
+
+# Temporary files and logs
+*.log
+*.tlog
+*.rej
+*.recipe
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Editor backup and swap files
+*~
+.#*
+.*.swp
+
+# macOS and Windows system files
+.DS_Store
+[Tt]humbs.db
