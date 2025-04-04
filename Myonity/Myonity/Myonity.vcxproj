@@ -137,6 +137,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Actor.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="DebugMacro.h" />
     <ClInclude Include="dxerr.h" />
@@ -145,6 +146,7 @@
     <ClInclude Include="EnginePreferences.h" />
     <ClInclude Include="ErrorLogger.h" />
     <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GameObject.h" />
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="GraphicsResourceManager.h" />
     <ClInclude Include="GraphicsWindow.h" />
@@ -165,8 +167,11 @@
     <ClInclude Include="RenderPass.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="TimeManager.h" />
+    <ClInclude Include="TypeInfoBase.h" />
+    <ClInclude Include="TypeInfoGenerate.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="dxerr.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>

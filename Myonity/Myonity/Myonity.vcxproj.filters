@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="dxerr.cpp">
+      <Filter>11.DX11Renderer\Debuger</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorLogger.cpp">
+      <Filter>11.DX11Renderer\Debuger</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx12.cpp">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_stdlib.cpp">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsResourceManager.cpp">
+      <Filter>11.DX11Renderer\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>11.DX11Renderer\EngineCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>11.DX11Renderer\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPass.cpp">
+      <Filter>11.DX11Renderer\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsWindow.cpp">
+      <Filter>11.DX11Renderer\EngineCore</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>00.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>00.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>01.GameEngine\12.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>01.GameEngine\10.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>01.GameEngine\10.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>01.GameEngine\00.EngineCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="DebugMacro.h">
+      <Filter>11.DX11Renderer\Debuger</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>11.DX11Renderer\Debuger</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorLogger.h">
+      <Filter>11.DX11Renderer\Debuger</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx12.h">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_single_file.h">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_stdlib.h">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>02.Editor\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsResourceManager.h">
+      <Filter>11.DX11Renderer\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>11.DX11Renderer\EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>11.DX11Renderer\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPass.h">
+      <Filter>11.DX11Renderer\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsWindow.h">
+      <Filter>11.DX11Renderer\EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>00.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>01.GameEngine\12.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>99.WinResource</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>01.GameEngine\10.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>01.GameEngine\10.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>01.GameEngine\00.EngineCore</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePreferences.h">
+      <Filter>01.GameEngine\01.Settings &amp; Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineDefine.h">
+      <Filter>01.GameEngine\01.Settings &amp; Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeInfoGenerate.h">
+      <Filter>01.GameEngine\02.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeInfoBase.h">
+      <Filter>01.GameEngine\02.Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameEngine\10.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXGetErrorDescription.inl">
+      <Filter>11.DX11Renderer\Debuger</Filter>
+    </None>
+    <None Include="DXGetErrorString.inl">
+      <Filter>11.DX11Renderer\Debuger</Filter>
+    </None>
+    <None Include="imgui.ini">
+      <Filter>02.Editor\Imgui</Filter>
+    </None>
+    <None Include="DXTrace.inl">
+      <Filter>11.DX11Renderer\Debuger</Filter>
+    </None>
+    <None Include="cursor.cur">
+      <Filter>99.WinResource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="99.WinResource">
+      <UniqueIdentifier>{4380c04f-d129-4c5a-afb8-3a539a94b7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Core">
+      <UniqueIdentifier>{9a3897eb-be59-4552-a7a3-1a13bcd9a36a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameEngine">
+      <UniqueIdentifier>{bec370ec-4005-44fe-855f-83a502efa7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameEngine\00.EngineCore">
+      <UniqueIdentifier>{19f5933a-409b-4b30-8335-6181e40f10cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.DX11Renderer">
+      <UniqueIdentifier>{72a0b32d-af54-495c-9c46-878210150be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.DX11Renderer\Debuger">
+      <UniqueIdentifier>{6c5ba3b3-2ec9-4c60-a1e1-5e3e57e96038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.DX11Renderer\Resource">
+      <UniqueIdentifier>{b11b2ef5-b996-45cb-84e2-bd623d654b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.DX11Renderer\EngineCore">
+      <UniqueIdentifier>{226580b0-dc5d-4efd-b4ce-6a243c30f10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.DX11Renderer\Rendering">
+      <UniqueIdentifier>{5cdbf46b-be02-44af-8488-35d50cae8678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Editor">
+      <UniqueIdentifier>{b9c1e7bf-0afe-47b4-b21d-337d6f15f5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Editor\Imgui">
+      <UniqueIdentifier>{9adc857e-1ad9-4a3f-ad23-d33c73723869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameEngine\10.Manager">
+      <UniqueIdentifier>{7aa5073e-448a-403c-ab93-454afa7976f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameEngine\12.Component">
+      <UniqueIdentifier>{cbacc8e0-b1bf-418c-b077-bd591978ee21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameEngine\02.Reflection">
+      <UniqueIdentifier>{48a968f5-c674-4b0e-9706-74cef94c471e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameEngine\01.Settings &amp; Header">
+      <UniqueIdentifier>{42c73909-dfea-4e3a-90f2-6d7244e90b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameEngine\11.Actor">
+      <UniqueIdentifier>{e03f8402-3acd-49c4-a8aa-83bea66a22ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameEngine\10.GameObject">
+      <UniqueIdentifier>{94b7dc33-b549-422b-bd60-6f2f17c1e11a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>99.WinResource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Myonity.rc">
+      <Filter>99.WinResource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

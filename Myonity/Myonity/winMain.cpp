@@ -20,9 +20,11 @@ int WINAPI wWinMain(
 	//_CrtSetBreakAlloc(301);
 
 	Engine* engine = new Engine();
+
 	engine->Initialize(hInstance);
 	engine->Progress();
 	engine->Finalize();
+
 	delete engine;
 
 	return 0;

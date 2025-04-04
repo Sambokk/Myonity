@@ -3,7 +3,6 @@
 *.suo
 *.user
 *.vcxproj.user
-*.vcxproj.filters
 *.pidb
 *.unityproj
 *.userprefs
